@@ -172,37 +172,37 @@ background-color: #C0C0C0;
 		
 	</div>
     <!--juegos destacados-->
-    <section>
-        <h1 class="text-uppercase text-center">BIENVENIDOS A NUESTRO SITIO WEB</h1>
-        <br />
+    <div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<p></p>
+<h2 style="text-align: center;"><span style="color: #0000ff;">BIENVENIDOS  A NUESTRO SITIO WEB</span></h2>
 
-        <!--inicio container-->
-    <div class="container">
+		</div> 
+	</div> 
+		</div> 
+	</div> 
+</div><div class="vc_row-full-width"></div>	<div class="vc_row wpb_row vc_row-fluid"  >
+	<div class="vc_col-sm-6 wpb_column vc_column_container ">
+		<div class="wpb_wrapper">
+			
+	<div class="wpb_text_column wpb_content_element  vc_custom_1433507959096">
+		<div class="wpb_wrapper">
+			<p></p>
+<h2 style="text-align: center;"></h2>
+<div style="text-align: center;">
+<div style="text-align: justify;">SNACK CENTER es parte de <strong>las soluciones</strong> no de los problemas, es por ello que presentamos máquinas nuevas de venta de snack y bebidas,  que vienen con la última tecnología en expendio automático, además de máquinas de café y otros modernos modelos.  Además nos encargamos de la reposición, mantención y arreglo de las máquinas.</div>
+<p>&nbsp;</p>
+<div style="text-align: justify;"></div>
+<div style="text-align: justify;"></div>
+<div style="text-align: left;">
+<p style="text-align: justify;">SNACKCENTER realiza <strong><span style="text-decoration: underline;">estudios personalizados</span></strong> para sus clientes, para buscar la mejor variedad de productos que requieran sus gustos y necesidades.</p>
+</div>
+</div>
 
-            <div>
-                <div class="wpb_wrapper">
-                    <div class="wpb_text_column wpb_content_element  vc_custom_1433507959096">
-                            <div class="text-align: justify;">
-                            VENDOMOTICA ALFONSO es parte de <strong>las soluciones</strong> no de los problemas, es por ello que presentamos máquinas nuevas de venta de snack y bebidas,  que vienen con la última tecnología en expendio automático, además de máquinas de café y otros modernos modelos.  Además nos encargamos de la reposición, mantención y arreglo de las máquinas.
-                            </div>
-                            <br>
-                            <div class="text-align: justify;">
-                            VENDOMOTICA ALFONSO realiza estudios personalizados para sus clientes, para buscar la mejor variedad de productos que requieran sus gustos y necesidades.
-                            </div>
-                        </div>
-                </div>
-        
-
-            
-                <div class="col-xs-4" >
-                            <div class="thumbnail">
-                                    <div class="text-align: justify;">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea suscipit ex iure sequi! Optio consectetur, odio rem enim reprehenderit voluptatem incidunt itaque voluptate accusamus ea voluptatum nisi tenetur quos unde!
-                                    </div>
-                                </div>
-                </div>                
-    </div>
-    <!--Fin container-->
+		</div> 
+	</div> 
+		</div> 
+	</div> 
                 
 
 
