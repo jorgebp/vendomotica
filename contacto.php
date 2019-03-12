@@ -60,7 +60,7 @@
                         <li data-target=".carousel" data-slide-to="2"></li>
                         <li data-target=".carousel" data-slide-to="3"></li>
                       </ol>
-                  
+                      <!-- Fin Indicators -->
                       <!-- Wrapper for slides -->
                       <div class="carousel-inner" role="listbox">
                         <div class="item active">
@@ -80,7 +80,7 @@
                           <div class="carousel-caption">Görsel #4</div>
                         </div>
                       </div>
-                  
+                      <!-- Fin Wrapper for slides -->
                       <!-- Controls -->
                       <a class="left carousel-control" href=".carousel" role="button" data-slide="prev">
                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -93,18 +93,21 @@
                     </div>
                   </section>
             </div>
-            <div>
-                    <h2 style="text-align: center;"><span style="color: #0000ff;">BIENVENIDOS &nbsp;A NUESTRO SITIO WEB</span></h2>
-            </div>
-            <div class="div1">
-                <p style="text-align: justify;">FAMILYVENDING es parte de <strong>las soluciones</strong> no de los problemas, es por ello que presentamos máquinas nuevas de venta de snack y bebidas,  que vienen con la última tecnología en expendio automático, además de máquinas de café y otros modernos modelos.  Además nos encargamos de la reposición, mantención y arreglo de las máquinas.</div>
-    <p>&nbsp;</p>
-                </div>
-                <div class="div1">
-                <p style="text-align: justify;">FAMILYVENDING realiza <strong><span style="text-decoration: underline;">estudios personalizados</span></strong> para sus clientes, para buscar la mejor variedad de productos que requieran sus gustos y necesidades.</p>
-            <br />
-                </div>
-            </div>
+            <!-- Fin Controls -->
+            <div class="container">
+        <div class="col-lg-9 col-lg-offset-3">
+            <form action="insertarUsu.php" class="formReg-container" method="post">
+                <h1>Crear Cuenta</h1>                
+                <input type="text" placeholder="Nombre" name="nombre" required>                
+                <input type="text" placeholder="Apellido" name="apellido" required>
+                <input type="mail" placeholder="Email" name="email" required>                
+                <input type="password" placeholder="Clave" name="psw" required>    
+                <input type="hidden" name="rol" value="3">
+                <button type="submit" class="btn">Registrar</button>        
+            </form>    
+        </div>
+    </div>
+
 <br>
 <br>
 <br>
