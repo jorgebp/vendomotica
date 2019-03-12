@@ -9,14 +9,17 @@
 	<link rel="stylesheet" href="css/font-awesome.css">
 </head>
 <body>    
-    <!--navbar-->
-    <ul class="navbar">
-      <li class="itemNavbar"><a href="index.php">Home</a></li>                
-      <li class="itemNavbar"><a href="productos.php">Productos</a></li>    
-	  <li class="itemNavbar"><a href="servicios.php">Servicios</a></li>
-	  <li class="itemNavbar"><a href="galeria.php">Galeria</a></li>
-      <li class="itemNavbar"><a href="contacto.php">Contacto</a></li>
-    </ul>
+	<!--navbar-->
+	<div>
+		<ul class="navbar">
+			<li class="itemNavbar"><a href="index.php">Home</a></li>                
+			<li class="itemNavbar"><a href="productos.php">Productos</a></li>    
+			<li class="itemNavbar"><a href="servicios.php">Servicios</a></li>
+			<li class="itemNavbar"><a href="galeria.php">Galeria</a></li>
+			<li class="itemNavbar"><a href="contacto.php">Contacto</a></li>
+		</ul>
+	</div>
+    
 <!--slider-->
 	<div class="slideshow">
 		<ul class="slider">
@@ -115,7 +118,30 @@
     </div>
     <!--Fin container-->
                 
-
+	<div class="inferior">
+		<!--Inicio de footer-->
+		<footer>
+			<div class="inferior">
+				<div class="inferior">
+					
+						<ul class="navbar">
+							<li class="itemNavbar"><a href="index.php">Home</a></li>                
+							<li class="itemNavbar"><a href="productos.php">Productos</a></li>    
+							<li class="itemNavbar"><a href="servicios.php">Servicios</a></li>
+							<li class="itemNavbar"><a href="galeria.php">Galeria</a></li>
+							<li class="itemNavbar"><a href="contacto.php">Contacto</a></li>
+						</ul>
+				<div>
+					<p>Ubicación: Alonso de Córdoba 1950 Of 804, Las Condes</p>
+				</div>
+				</div>
+				
+				
+			</div>
+		</footer>
+		<!--Fin de footer-->
+		
+	</div>
 
     
                 
