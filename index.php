@@ -37,11 +37,11 @@
                                 <img src="img/logo.jpg" alt="">
                             </ul>
                             <ul class="nav navbar-nav navbar-center">
-                                <li><a href="#">HOME</a></li>
-                                <li><a href="#">SERVICIOS</a></li>
-                                <li><a href="#">PRODUCTOS</a></li>
-                                <li><a href="#">GALERIA</a></li>
-                                <li><a href="#">CONTACTO</a></li>
+                                  <li><a href="index.php">HOME</a></li>
+                                  <li><a href="servicios.php">SERVICIOS</a></li>
+                                  <li><a href="productos.php">PRODUCTOS</a></li>
+                                  <li><a href="galeria.php">GALERIA</a></li>
+                                  <li><a href="contacto.php">CONTACTO</a></li>
                             </ul>
                             <ul class="nav navbar-nav navbar-right">
                                 
@@ -109,7 +109,7 @@
 <br>
 <br>
             <div>
-                    <nav class="navbar navbar-default color" role="navigation">
+                    <nav class="navbar navbar-default color colorfondo" role="navigation">
                             <div class="navbar-header">
                                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                                         
@@ -120,11 +120,11 @@
                             </div>
                             <div class="navbar-collapse collapse">
                                 <ul class="nav navbar-nav navbar-left">
-                                        <li><a href="#">HOME</a></li>
-                                        <li><a href="#">SERVICIOS</a></li>
-                                        <li><a href="#">PRODUCTOS</a></li>
-                                        <li><a href="#">GALERIA</a></li>
-                                        <li><a href="#">CONTACTO</a></li>
+                                        <li><a href="index.php">HOME</a></li>
+                                        <li><a href="servicios.php">SERVICIOS</a></li>
+                                        <li><a href="productos.php">PRODUCTOS</a></li>
+                                        <li><a href="galeria.php">GALERIA</a></li>
+                                        <li><a href="contacto.php">CONTACTO</a></li>
                                 </ul>
                                 <ul class="nav navbar-nav navbar-center" >
                                     <img src="img/facebook.png" alt="">
