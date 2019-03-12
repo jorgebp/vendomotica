@@ -1,155 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-    <title>Familyvending</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/estilos.css">
-	<link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <script src="js/javascript.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Prueba</title>
 </head>
-<body>    
-	<!--navbar-->
-	<div>
-		<ul class="navbar">
-			<li class="itemNavbar"><a href="index.php">Home</a></li>                
-			<li class="itemNavbar"><a href="productos.php">Productos</a></li>    
-			<li class="itemNavbar"><a href="servicios.php">Servicios</a></li>
-			<li class="itemNavbar"><a href="galeria.php">Galeria</a></li>
-			<li class="itemNavbar"><a href="contacto.php">Contacto</a></li>
-		</ul>
-	</div>
-    
-<!--slider-->
-	<div class="slideshow">
-		<ul class="slider">
-			<li class="liSlider">
-				<img src="img/maquina1.jpg" alt="">
-				<section class="caption">
-					<h1>Nintendo</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci quis ipsa, id quidem quisquam unde.</p>
-				</section>
-			</li>
-			<li class="liSlider">
-				<img src="img/maquina2.jpg" alt="">
-				<section class="caption">
-					<h1>PC Gaming</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci quis ipsa, id quidem quisquam unde.</p>
-				</section>
-			</li >
-			<li class="liSlider">
-				<img src="img/maquina3.jpg" alt="">
-				<section class="caption">
-					<h1>X-box</h1>
-					<p>Juegos para esta plataforma</p>
-				</section>
-			</li>
-		</ul>
-                
-		
-	
-		<div class="izq">
-			<span class="fa fa-chevron-left"></span>
-		</div>
+<body>
+    <header style="background: #0000ff;">
+        <div >
+            <p style="color: #fff;">+56 9 8227 1625</p>
+        </div>
+    </header>
 
-		<div class="der">
-			<span class="fa fa-chevron-right"></span>
-		</div>
-	</div>
-    <!--juegos destacados-->
-    <section>
-		<div>
-			<div>
-				<h1 class="text-uppercase text-center">BIENVENIDOS  A NUESTRO SITIO WEB.</h1>
-			</div>
-			
-			<div>
-			<p style="text-align: justify;">FAMILYVENDING es parte de <strong>las soluciones</strong> no de los problemas, es por ello que presentamos máquinas nuevas de venta de snack y bebidas,  que vienen con la última tecnología en expendio automático, además de máquinas de café y otros modernos modelos.  Además nos encargamos de la reposición, mantención y arreglo de las máquinas.</div>
-<p>&nbsp;</p>
-			</div>
-			<div>
-			<p style="text-align: justify;">FAMILYVENDING realiza <strong><span style="text-decoration: underline;">estudios personalizados</span></strong> para sus clientes, para buscar la mejor variedad de productos que requieran sus gustos y necesidades.</p>
-        <br />
-			</div>
-		</div>
-        <!--inicio container-->
-    <div class="container">
-                <div class="col-xs-4">
-                            <div class="thumbnail">
-                                <img class="img-responsive" src="img/maquina1.jpg" alt="">
-                                <h4>God of War IV</h4>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea suscipit ex iure sequi! Optio consectetur, odio rem enim reprehenderit voluptatem incidunt itaque voluptate accusamus ea voluptatum nisi tenetur quos unde!
-                                    </p>
-                                    <p>
-                                            <a href="https://www.levelup.com/PlayStation-4/juegos/378244/God-of-War/review" class="btn btn-primary">Ver mas</a>
-                                    </p>
-                                </div>
-                </div>
-                   
+    <div>
+        <div>
 
-                <div class="col-xs-4">
-                                <div class="thumbnail">
-                                    <img class="img-responsive" src="img/maquina2.jpg" alt="">
-                                    <h4>World of Warcraft: Battle for Azeroth</h4>
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea suscipit ex iure sequi! Optio consectetur, odio rem enim reprehenderit voluptatem incidunt itaque voluptate accusamus ea voluptatum nisi tenetur quos unde!
-                                        </p>
-                                        <p>
-                                                <a href="https://es.ign.com/world-of-warcraft-battle-for-azeroth-1/137980/review/analisis-en-progreso-de-world-of-warcraft-battle-for-azeroth" class="btn btn-primary">Ver mas</a>
-                                        </p>
-                                    </div>
-                </div>
-
-                
-                <div class="col-xs-4">
-                        <div class="thumbnail">
-                            <img class="img-responsive" src="img/maquina3.jpg" alt="">
-                            <h4>Player Unknowns Battlegrounds</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea suscipit ex iure sequi! Optio consectetur, odio rem enim reprehenderit voluptatem incidunt itaque voluptate accusamus ea voluptatum nisi tenetur quos unde!
-                                </p>
-                                <p>
-                                        <a href="https://www.3djuegos.com/juegos/analisis/29065/0/playerunknowns-battlegrounds/" class="btn btn-primary">Ver mas</a>
-                                </p>
-                            </div>
-                </div>
-                          
+        </div>
+        <!--Div Menu-->
+        <div>
+                <nav class="navbar navbar-default" role="navigation">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav navbar-left">
+                                <img src="img/logo.jpg" alt="">
+                            </ul>
+                            <ul class="nav navbar-nav navbar-center">
+                                <li><a href="#">HOME</a></li>
+                                <li><a href="#">SERVICIOS</a></li>
+                                <li><a href="#">PRODUCTOS</a></li>
+                                <li><a href="#">GALERIA</a></li>
+                                <li><a href="#">CONTACTO</a></li>
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right">
+                                
+                            </ul>
+                        </div>
+                    </nav>
+        </div>
     </div>
-    <!--Fin container-->
-                
-	<div class="inferior">
-		<!--Inicio de footer-->
-		<footer>
-			<div class="inferior">
-				<div class="inferior">
-					
-						<ul class="navbar">
-							<li class="itemNavbar"><a href="index.php">Home</a></li>                
-							<li class="itemNavbar"><a href="productos.php">Productos</a></li>    
-							<li class="itemNavbar"><a href="servicios.php">Servicios</a></li>
-							<li class="itemNavbar"><a href="galeria.php">Galeria</a></li>
-							<li class="itemNavbar"><a href="contacto.php">Contacto</a></li>
-						</ul>
-				<div>
-					<p>Ubicación: Alonso de Córdoba 1950 Of 804, Las Condes</p>
-				</div>
-				</div>
-				
-				
-			</div>
-		</footer>
-		<!--Fin de footer-->
-		
-	</div>
+            <div>
+                <section class="awSlider">
+                    <div  class="carousel slide" data-ride="carousel">
+                      <!-- Indicators -->
+                      <ol class="carousel-indicators">
+                        <li data-target=".carousel" data-slide-to="0" class="active"></li>
+                        <li data-target=".carousel" data-slide-to="1"></li>
+                        <li data-target=".carousel" data-slide-to="2"></li>
+                        <li data-target=".carousel" data-slide-to="3"></li>
+                      </ol>
+                  
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                          <img src="http://www.adobewordpress.com/wp-content/uploads/2014/02/wallpaper-thumb-941.jpg">
+                          <div class="carousel-caption">Görsel #1</div>
+                        </div>
+                        <div class="item">
+                          <img src="http://www.adobewordpress.com/wp-content/uploads/2014/02/wallpaper-thumb-101.jpg">
+                          <div class="carousel-caption">Görsel #2</div>
+                        </div>
+                        <div class="item">
+                          <img src="http://www.adobewordpress.com/wp-content/uploads/2014/02/wallpaper-thumb-1051.jpg">
+                          <div class="carousel-caption">Görsel #3</div>
+                        </div>
+                        <div class="item">
+                          <img src="http://www.adobewordpress.com/wp-content/uploads/2013/07/wallpaper-thumb-74.jpg">
+                          <div class="carousel-caption">Görsel #4</div>
+                        </div>
+                      </div>
+                  
+                      <!-- Controls -->
+                      <a class="left carousel-control" href=".carousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Geri</span>
+                      </a>
+                      <a class="right carousel-control" href=".carousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">İleri</span>
+                      </a>
+                    </div>
+                  </section>
+            </div>
+            <div>
+                    <h2 style="text-align: center;"><span style="color: #0000ff;">BIENVENIDOS &nbsp;A NUESTRO SITIO WEB</span></h2>
+            </div>
+            <div class="div1">
+                <p style="text-align: justify;">FAMILYVENDING es parte de <strong>las soluciones</strong> no de los problemas, es por ello que presentamos máquinas nuevas de venta de snack y bebidas,  que vienen con la última tecnología en expendio automático, además de máquinas de café y otros modernos modelos.  Además nos encargamos de la reposición, mantención y arreglo de las máquinas.</div>
+    <p>&nbsp;</p>
+                </div>
+                <div class="div1">
+                <p style="text-align: justify;">FAMILYVENDING realiza <strong><span style="text-decoration: underline;">estudios personalizados</span></strong> para sus clientes, para buscar la mejor variedad de productos que requieran sus gustos y necesidades.</p>
+            <br />
+                </div>
+            </div>
+<br>
+<br>
+<br>
+            <div>
+                    <nav class="navbar navbar-default color" role="navigation">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                        
+                                    <span class="icon-bar"><img src="" alt=""></span>
+                                    <span class="icon-bar"><img src="" alt=""></span>
+                                    <span class="icon-bar"><img src="" alt=""></span>
+                                </button>
+                            </div>
+                            <div class="navbar-collapse collapse">
+                                <ul class="nav navbar-nav navbar-left">
+                                        <li><a href="#">HOME</a></li>
+                                        <li><a href="#">SERVICIOS</a></li>
+                                        <li><a href="#">PRODUCTOS</a></li>
+                                        <li><a href="#">GALERIA</a></li>
+                                        <li><a href="#">CONTACTO</a></li>
+                                </ul>
+                                <ul class="nav navbar-nav navbar-center" >
+                                    <img src="img/facebook.png" alt="">
+                                    <img src="img/instagram.png" alt="">
+                                    <img src="img/whatsapp.png" alt="">
+                                </ul>
+                                
+                                <ul class="nav navbar-nav navbar-right">
+                                        <p style="color: #fff;">Ubicación: Alonso de Córdoba 1950 Of 804, Las Condes</p>
+                                </ul>
+                            </div>
+                    </nav>
+            </div>
+        </div>
 
-    
-                
-    </section>
-    <br /><br />
-   
-        <script src="js/jquery-3.1.0.min.js"></script>
-        <script src="js/main.js"></script>
-
+        <footer>
+            
+        </footer>
 </body>
 </html>
