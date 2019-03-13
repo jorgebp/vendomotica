@@ -100,7 +100,7 @@
 		<div class="row">
 		<h3 class="center-align">CONTACTO</h3>
 			<article class="col s6 offset-s3">
-				<form method="POST" action="envio_form.php">
+				<form method="POST" action="metodos/envio_form.php">
 					<div class="input-field">
 						<i class="material-icons prefix">perm_identity</i>
 						<label for="nombre">Nombre</label>
