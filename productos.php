@@ -94,7 +94,7 @@
                   </section>
             </div>
             <div>
-                    <h2 style="text-align: center;"><span style="color: #0000ff;">BIENVENIDOS &nbsp;A NUESTRO SITIO WEB</span></h2>
+                    <h2 style="text-align: center;"><span style="color: #0000ff;">PRODUCTOS</span></h2>
             </div>
             <div class="div1">
                 <p style="text-align: justify;">FAMILYVENDING es parte de <strong>las soluciones</strong> no de los problemas, es por ello que presentamos máquinas nuevas de venta de snack y bebidas,  que vienen con la última tecnología en expendio automático, además de máquinas de café y otros modernos modelos.  Además nos encargamos de la reposición, mantención y arreglo de las máquinas.</div>

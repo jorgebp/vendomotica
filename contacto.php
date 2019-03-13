@@ -6,10 +6,12 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="css/bootstrap.css">
         <script src="js/javascript.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+	 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Prueba</title>
+    <title>Contacto</title>
 </head>
 <body>
     <header style="background: #0000ff;">
@@ -94,19 +96,48 @@
                   </section>
             </div>
             <!-- Fin Controls -->
-            <div class="container">
-        <div class="col-lg-9 col-lg-offset-3">
-            <form action="insertarUsu.php" class="formReg-container" method="post">
-                <h1>Crear Cuenta</h1>                
-                <input type="text" placeholder="Nombre" name="nombre" required>                
-                <input type="text" placeholder="Apellido" name="apellido" required>
-                <input type="mail" placeholder="Email" name="email" required>                
-                <input type="password" placeholder="Clave" name="psw" required>    
-                <input type="hidden" name="rol" value="3">
-                <button type="submit" class="btn">Registrar</button>        
-            </form>    
-        </div>
-    </div>
+            <section class="container">
+		<div class="row">
+		<h3 class="center-align">CONTACTO</h3>
+			<article class="col s6 offset-s3">
+				<form method="POST" action="envio_form.php">
+					<div class="input-field">
+						<i class="material-icons prefix">perm_identity</i>
+						<label for="nombre">Nombre</label>
+						<input type="text" name="nombre" required>
+					</div>
+
+					<div class="input-field">
+						<i class="material-icons prefix">person_pin</i>
+						<label for="apellido">Apellido</label>
+						<input type="text" name="apellido" required>
+					</div>
+					
+					<div class="input-field">
+						<i class="material-icons prefix">email</i>
+						<label for="email">Email</label>
+						<input type="email" name="email" required>
+					</div>
+
+					<div class="input-field">
+						<i class="material-icons prefix">mode_edit</i>
+						<label for="mensaje">Mensaje</label>
+						<textarea name="mensaje" id="" rows="10" class="materialize-textarea"  length="160" required></textarea>
+					</div>
+					
+					<p class="center-align">
+						<button class="waves-effect waves-light btn" type="submit"><i class="material-icons right">send</i>Enviar</button>
+					</p>
+
+				</form>
+
+			</article>
+		</div>
+	</section>
+
+
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
 
 <br>
 <br>
