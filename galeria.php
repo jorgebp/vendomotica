@@ -95,16 +95,27 @@
             </div>
             <div>
                     <h2 style="text-align: center;"><span style="color: #0000ff;">GALERÍA</span></h2>
+    
+                 <articles class="row">
+                    <article class="col-md-3">
+                    <a href="img/logo.jpg" data-lightbox="example-set" data-title="Regala">
+                    <img src="img/logo.jpg" alt="Regala" class="img-thumbnail"></a>
+                    <p>Regala</p>
+                    </article>
+                    <article class="col-md-3">
+                    <a href="img/logo.jpg" data-lightbox="example-set" data-title="Descansa">
+                    <img src="img/logo.jpg" alt="Descansa" class="img-thumbnail"></a>
+                    <p>Descansa</p>
+                    </article>
+                 </articles>
             </div>
-            <div class="div1">
-                <p style="text-align: justify;">FAMILYVENDING es parte de <strong>las soluciones</strong> no de los problemas, es por ello que presentamos máquinas nuevas de venta de snack y bebidas,  que vienen con la última tecnología en expendio automático, además de máquinas de café y otros modernos modelos.  Además nos encargamos de la reposición, mantención y arreglo de las máquinas.</div>
-    <p>&nbsp;</p>
-                </div>
-                <div class="div1">
-                <p style="text-align: justify;">FAMILYVENDING realiza <strong><span style="text-decoration: underline;">estudios personalizados</span></strong> para sus clientes, para buscar la mejor variedad de productos que requieran sus gustos y necesidades.</p>
-            <br />
-                </div>
-            </div>
+            
+<script src="lightbox/js/lightbox.min.js"></script>
+  <script>
+   lightbox.option({
+ 'albumLabel': "Imagen %1 de %2"
+   })
+  </script>
 <br>
 <br>
 <br>
