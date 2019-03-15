@@ -105,9 +105,9 @@
             <br />
                 </div>
             </div>
-<br>
-<br>
-<br>
+<br />
+<br />
+<br />
             <div>
                     <nav class="navbar navbar-default color colorfondo" role="navigation">
                             <div class="navbar-header">

@@ -9,7 +9,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Prueba</title>
+    <title>Productos</title>
 </head>
 <body>
     <header style="background: #0000ff;">
@@ -96,14 +96,22 @@
             <div>
                     <h2 style="text-align: center;"><span style="color: #0000ff;">PRODUCTOS</span></h2>
             </div>
+            <!-- Primera maquina con su respectiva imagen y descripción -->
             <div class="div1">
-                <p style="text-align: justify;">FAMILYVENDING es parte de <strong>las soluciones</strong> no de los problemas, es por ello que presentamos máquinas nuevas de venta de snack y bebidas,  que vienen con la última tecnología en expendio automático, además de máquinas de café y otros modernos modelos.  Además nos encargamos de la reposición, mantención y arreglo de las máquinas.</div>
-    <p>&nbsp;</p>
-                </div>
-                <div class="div1">
+                <img style=""src="img/maquina1.jpg" alt="">
                 <p style="text-align: justify;">FAMILYVENDING realiza <strong><span style="text-decoration: underline;">estudios personalizados</span></strong> para sus clientes, para buscar la mejor variedad de productos que requieran sus gustos y necesidades.</p>
+            </div>
             <br />
-                </div>
+            <!-- Segunda maquina con su respectiva imagen y descripción -->
+            <div class="div1">
+                <img style=""src="img/maquina2.jpg" alt="">
+                <p style="text-align: justify;">FAMILYVENDING realiza <strong><span style="text-decoration: underline;">estudios personalizados</span></strong> para sus clientes, para buscar la mejor variedad de productos que requieran sus gustos y necesidades.</p>
+            </div>
+            <br />
+            <div class="div1">
+                <img style=""src="img/maquina2.jpg" alt="">
+                <p style="text-align: justify;">FAMILYVENDING realiza <strong><span style="text-decoration: underline;">estudios personalizados</span></strong> para sus clientes, para buscar la mejor variedad de productos que requieran sus gustos y necesidades.</p>
+            </div>
             </div>
 <br>
 <br>

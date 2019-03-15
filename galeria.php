@@ -100,13 +100,18 @@
     
                  <articles class="row">
                     <article class="col-md-3">
-                    <a href="img/logo.jpg" data-lightbox="example-set" data-title="Regala">
-                    <img src="img/logo.jpg" alt="Regala" class="img-thumbnail"></a>
+                    <a href="img/maquina1.jpg" data-lightbox="example-set" data-title="Regala">
+                    <img src="img/maquina1.jpg" alt="Regala" class="img-thumbnail"></a>
                     <p>Regala</p>
                     </article>
                     <article class="col-md-3">
-                    <a href="img/logo.jpg" data-lightbox="example-set" data-title="Descansa">
-                    <img src="img/logo.jpg" alt="Descansa" class="img-thumbnail"></a>
+                    <a href="img/maquina2.jpg" data-lightbox="example-set" data-title="Descansa">
+                    <img src="img/maquina2.jpg" alt="Descansa" class="img-thumbnail"></a>
+                    <p>Descansa</p>
+                    </article>
+                    <article class="col-md-3">
+                    <a href="img/maquina3.jpg" data-lightbox="example-set" data-title="Descansa">
+                    <img src="img/maquina3.jpg" alt="Descansa" class="img-thumbnail"></a>
                     <p>Descansa</p>
                     </article>
                  </articles>
