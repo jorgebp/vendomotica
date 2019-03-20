@@ -119,6 +119,12 @@
 						<input type="email" name="email" required>
 					</div>
 
+          <div class="input-field">
+          <i class="material-icons prefix">report</i>
+						<label for="motivo">Motivo</label>
+            <input type="text" name="motivo" required>
+          </div> 
+
 					<div class="input-field">
 						<i class="material-icons prefix">mode_edit</i>
 						<label for="mensaje">Mensaje</label>

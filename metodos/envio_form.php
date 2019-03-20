@@ -1,25 +1,64 @@
 <?php
+       //Reseteamos variables a 0.
+       $nombre = $email = $subject = $mensaje = $para = NULL;
 
-error_reporting(0); 
-$nombre = $_POST['nombre'];
-$apellido = $_POST['apellido'];
-$email = $_POST['email'];
-$mensaje = $_POST['mensaje'];
-$header = 'From: ' . $mail . " \r\n"; 
-$header = "X-Mailer: PHP/" . phpversion() . " \r\n"; 
-$header = "Mime-Version: 1.0 \r\n"; 
-$header = "Content-Type: text/plain"; 
+       if (isset($_POST['submit'])) {
 
-$mensaje = "Este mensaje fue enviado por " . $nombre . " \r\n"; 
-$mensaje = "Su e-mail es: " . $mail . " \r\n"; 
-$mensaje = "aficiones " . $_POST['mensaje'] . " \r\n";
-$mensaje = "Enviado el " . date('d/m/Y', time()); 
+          //Obtenemos valores input formulario
+          $nombre = $_POST['nombre'];
+          $email = $_POST['email'];
+          $subject = $_POST['motivo'];   
+          $mensaje = $_POST['mensaje'];
+          $para = 'jorge.beltranp@outlook.com';
 
-$para = 'jorge.beltranp@outlook.com'; 
-$asunto = 'Consulta FamilyVending';
 
-@mail($para, $asunto, utf8_decode($mensaje), $header);
+          //Compones nuestro correo electronico
 
-echo 'mensaje enviado correctamente'; 
+          //Incluimos libreria PHPmailer (deberas descargarlo).
+          require'class.phpmailer.php';
 
-?>
+          //Nuevo correo electronico.
+          $mail = new PHPMailer;
+          //Caracteres.
+          $mail->CharSet = 'UTF-8';
+
+          //De dirección correo electrónico y el nombre
+          $mail->From = "info@tudominio.com";
+          $mail->FromName = "Nombre de dominio";
+
+          //Dirección de envio y nombre.
+          $mail->addAddress($para, $nombre);
+          //Dirección a la que responderá destinatario.
+          $mail->addReplyTo("info@tudominio.com","Tunombre");
+
+          //BCC ->  incluir copia oculta de email enviado.
+          $mail->addBCC("copia@tudominio.com");
+
+          //Enviar codigo HTML o texto plano.
+          $mail->isHTML(true);
+
+          //Titulo email.
+          $mail->Subject = "Nuestro titulo";
+          //Cuerpo email con HTML.
+          $mail->Body = "
+                  <h1>Envio de reporte de máquinas de Nscak y Café.</h1>
+
+                  Nombre: $nombre<br /> 
+                  Email: $email <br />
+                  Asunto: $subject <br />
+                 Mensaje: $mensaje <br />
+
+          "; 
+
+        //Comprobamos el envio.
+        if(!$mail->send()) {                   
+            echo "<script language='javascript'>
+                alert('fallado');
+             </script>";
+        } else {
+            echo "<script language='javascript'>
+                alert('Mensaje enviado, muchas gracias.');
+             </script>";
+        } 
+      }
+    ?>
