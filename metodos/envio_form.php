@@ -1,64 +1,34 @@
 <?php
-       //Reseteamos variables a 0.
-       $nombre = $email = $subject = $mensaje = $para = NULL;
+if(isset($_POST['email'])) {
 
-       if (isset($_POST['submit'])) {
+// Debes editar las próximas dos líneas de código de acuerdo con tus preferencias
+$email_to = "jorge.beltranp@outlook.com";
+$email_subject = "Contacto de FamalyVending";
 
-          //Obtenemos valores input formulario
-          $nombre = $_POST['nombre'];
-          $email = $_POST['email'];
-          $subject = $_POST['motivo'];   
-          $mensaje = $_POST['mensaje'];
-          $para = 'jorge.beltranp@outlook.com';
+// Aquí se deberían validar los datos ingresados por el usuario
+if(!isset($_POST['nombre']) ||
+!isset($_POST['apellido']) ||
+!isset($_POST['email']) ||
+!isset($_POST['motivo']) ||
+!isset($_POST['mensaje'])) {
 
+echo "<b>Ocurrió un error y el formulario no ha sido enviado. </b><br />";
+echo "Por favor, vuelva atrás y verifique la información ingresada<br />";
+die();
+}
 
-          //Compones nuestro correo electronico
+$email_message = "Detalles del formulario de contacto:\n\n";
+$email_message .= "Nombre: " . $_POST['nombre'] . "\n";
+$email_message .= "Apellido: " . $_POST['apellido'] . "\n";
+$email_message .= "E-mail: " . $_POST['email'] . "\n";
+$email_message .= "Teléfono: " . $_POST['motivo'] . "\n";
+$email_message .= "Comentarios: " . $_POST['mensaje'] . "\n\n";
 
-          //Incluimos libreria PHPmailer (deberas descargarlo).
-          require'class.phpmailer.php';
+// Ahora se envía el e-mail usando la función mail() de PHP
+$headers = 'X-Mailer: PHP/' . phpversion();
+@mail($email_to, $email_subject, $email_message, $headers);
 
-          //Nuevo correo electronico.
-          $mail = new PHPMailer;
-          //Caracteres.
-          $mail->CharSet = 'UTF-8';
-
-          //De dirección correo electrónico y el nombre
-          $mail->From = "info@tudominio.com";
-          $mail->FromName = "Nombre de dominio";
-
-          //Dirección de envio y nombre.
-          $mail->addAddress($para, $nombre);
-          //Dirección a la que responderá destinatario.
-          $mail->addReplyTo("info@tudominio.com","Tunombre");
-
-          //BCC ->  incluir copia oculta de email enviado.
-          $mail->addBCC("copia@tudominio.com");
-
-          //Enviar codigo HTML o texto plano.
-          $mail->isHTML(true);
-
-          //Titulo email.
-          $mail->Subject = "Nuestro titulo";
-          //Cuerpo email con HTML.
-          $mail->Body = "
-                  <h1>Envio de reporte de máquinas de Nscak y Café.</h1>
-
-                  Nombre: $nombre<br /> 
-                  Email: $email <br />
-                  Asunto: $subject <br />
-                 Mensaje: $mensaje <br />
-
-          "; 
-
-        //Comprobamos el envio.
-        if(!$mail->send()) {                   
-            echo "<script language='javascript'>
-                alert('fallado');
-             </script>";
-        } else {
-            echo "<script language='javascript'>
-                alert('Mensaje enviado, muchas gracias.');
-             </script>";
-        } 
-      }
-    ?>
+echo "¡El formulario se ha enviado con éxito!";
+header('Location: ../contacto.php');
+}
+?>

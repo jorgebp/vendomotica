@@ -5,9 +5,9 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/lightbox.css">
-        <script src="js/lightbox.js"></script>
         <script src="js/javascript.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+	 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -66,20 +66,20 @@
                       <!-- Wrapper for slides -->
                       <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                          <img src="http://www.adobewordpress.com/wp-content/uploads/2014/02/wallpaper-thumb-941.jpg">
-                          <div class="carousel-caption">Görsel #1</div>
+                          <img src="img/maquina1.jpg">
+                          <div class="carousel-caption">CESFAM APOQUINDO</div>
                         </div>
                         <div class="item">
-                          <img src="http://www.adobewordpress.com/wp-content/uploads/2014/02/wallpaper-thumb-101.jpg">
-                          <div class="carousel-caption">Görsel #2</div>
+                          <img src="img/maquina1.jpg">
+                          <div class="carousel-caption">PLAYTAM</div>
                         </div>
                         <div class="item">
-                          <img src="http://www.adobewordpress.com/wp-content/uploads/2014/02/wallpaper-thumb-1051.jpg">
-                          <div class="carousel-caption">Görsel #3</div>
+                          <img src="img/maquina1.jpg">
+                          <div class="carousel-caption">CESFAM LAS CONDES</div>
                         </div>
                         <div class="item">
-                          <img src="http://www.adobewordpress.com/wp-content/uploads/2013/07/wallpaper-thumb-74.jpg">
-                          <div class="carousel-caption">Görsel #4</div>
+                          <img src="img/maquina1.jpg">
+                          <div class="carousel-caption">ROYAL ÁMERICA</div>
                         </div>
                       </div>
                   

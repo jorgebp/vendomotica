@@ -11,7 +11,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contacto</title>
+    <title>Prueba</title>
 </head>
 <body>
     <header style="background: #0000ff;">
@@ -62,27 +62,27 @@
                         <li data-target=".carousel" data-slide-to="2"></li>
                         <li data-target=".carousel" data-slide-to="3"></li>
                       </ol>
-                      <!-- Fin Indicators -->
+                  
                       <!-- Wrapper for slides -->
                       <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                          <img src="http://www.adobewordpress.com/wp-content/uploads/2014/02/wallpaper-thumb-941.jpg">
-                          <div class="carousel-caption">Görsel #1</div>
+                          <img src="img/maquina1.jpg">
+                          <div class="carousel-caption">CESFAM APOQUINDO</div>
                         </div>
                         <div class="item">
-                          <img src="http://www.adobewordpress.com/wp-content/uploads/2014/02/wallpaper-thumb-101.jpg">
-                          <div class="carousel-caption">Görsel #2</div>
+                          <img src="img/maquina1.jpg">
+                          <div class="carousel-caption">PLAYTAM</div>
                         </div>
                         <div class="item">
-                          <img src="http://www.adobewordpress.com/wp-content/uploads/2014/02/wallpaper-thumb-1051.jpg">
-                          <div class="carousel-caption">Görsel #3</div>
+                          <img src="img/maquina1.jpg">
+                          <div class="carousel-caption">CESFAM LAS CONDES</div>
                         </div>
                         <div class="item">
-                          <img src="http://www.adobewordpress.com/wp-content/uploads/2013/07/wallpaper-thumb-74.jpg">
-                          <div class="carousel-caption">Görsel #4</div>
+                          <img src="img/maquina1.jpg">
+                          <div class="carousel-caption">ROYAL ÁMERICA</div>
                         </div>
                       </div>
-                      <!-- Fin Wrapper for slides -->
+                  
                       <!-- Controls -->
                       <a class="left carousel-control" href=".carousel" role="button" data-slide="prev">
                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -145,9 +145,9 @@
 	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
 
-<br>
-<br>
-<br>
+  <br />
+<br />
+<br />
             <div>
                     <nav class="navbar navbar-default color colorfondo" role="navigation">
                             <div class="navbar-header">
