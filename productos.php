@@ -101,7 +101,7 @@
             <!-- Primera maquina con su respectiva imagen y descripción -->
             <div class="div1">
                 <img style=""src="img/maquina1.jpg" alt="">
-                <p style="text-align: justify;">FAMILYVENDING realiza <strong><span style="text-decoration: underline;">estudios personalizados</span></strong> para sus clientes, para buscar la mejor variedad de productos que requieran sus gustos y necesidades.</p>
+                <p style="text-align: justify;"><?php echo "texto1"; ?>pFAMILYVENDING realiza <strong><span style="text-decoration: underline;">estudios personalizados</span></strong> para sus clientes, para buscar la mejor variedad de productos que requieran sus gustos y necesidades.</p>
             </div>
             <br />
             <!-- Segunda maquina con su respectiva imagen y descripción -->

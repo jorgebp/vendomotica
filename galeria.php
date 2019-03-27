@@ -6,8 +6,11 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="css/bootstrap.css">
         <script src="js/javascript.js"></script>
+        <script src="js/lightbox.js"></script>
+        <link rel="stylesheet" href="css/lightbox.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
 	 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -98,7 +101,7 @@
             <div>
                     <h2 style="text-align: center;"><span style="color: #0000ff;">GALERÍA</span></h2>
     
-                 <articles class="row">
+                 <article class="row">
                     <article class="col-md-3">
                     <a href="img/maquina1.jpg" data-lightbox="example-set" data-title="Regala">
                     <img src="img/maquina1.jpg" alt="Regala" class="img-thumbnail"></a>
@@ -114,7 +117,7 @@
                     <img src="img/maquina3.jpg" alt="Descansa" class="img-thumbnail"></a>
                     <p>Descansa</p>
                     </article>
-                 </articles>
+                 </article>
             </div>
             
 <script src="lightbox/js/lightbox.min.js"></script>
@@ -157,9 +160,5 @@
                     </nav>
             </div>
         </div>
-
-        <footer>
-            
-        </footer>
 </body>
 </html>

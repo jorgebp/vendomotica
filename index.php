@@ -129,9 +129,9 @@
                                         <li><a href="contacto.php">CONTACTO</a></li>
                                 </ul>
                                 <ul class="nav navbar-nav navbar-center" >
-                                    <img src="img/facebook.png" alt="">
-                                    <img src="img/instagram.png" alt="">
-                                    <img src="img/whatsapp.png" alt="">
+                                          <a href="https://www.facebook.com"><img src="img/facebook.png" alt=""></a>
+                                          <a href="https://www.instagram.com"><img src="img/instagram.png" alt=""></a>
+                                          <a href="https://web.whatsapp.com/🌐/es"><img src="img/whatsapp.png" alt=""></a>
                                 </ul>
                                 
                                 <ul class="nav navbar-nav navbar-right">
