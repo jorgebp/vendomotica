@@ -167,9 +167,9 @@
                                         <li><a href="contacto.php">CONTACTO</a></li>
                                 </ul>
                                 <ul class="nav navbar-nav navbar-center" >
-                                    <img src="img/facebook.png" alt="">
-                                    <img src="img/instagram.png" alt="">
-                                    <img src="img/whatsapp.png" alt="">
+                                        <li><a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png" alt=""></a></li>
+                                        <li><a href="https://www.instagram.com" target="_blank"><img src="img/instagram.png" alt=""></a></li>
+                                        <li><a href="https://web.whatsapp.com/🌐/es" target="_blank"><img src="img/whatsapp.png" alt=""></a></li>
                                 </ul>
                                 
                                 <ul class="nav navbar-nav navbar-right">
